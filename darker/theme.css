@@ -32,6 +32,18 @@
   background: #353535 !important;
 }
 
+::selection {
+    background-color: var(--v-primary-base) !important;
+}
+
+*::-webkit-selection {
+  background-color: var(--v-primary-base) !important;
+}
+
+*::-moz-selection {
+  background-color: var(--v-primary-base) !important;
+}
+
 .v-overlay__scrim {
   background-color: black !important;
 }
@@ -123,18 +135,6 @@
 
 .v-bottom-navigation .v-btn__content {
   padding: 6px;
-}
-
-::selection {
-    background-color: var(--v-primary-base) !important;
-}
-
-*::-webkit-selection {
-  background-color: var(--v-primary-base) !important;
-}
-
-*::-moz-selection {
-  background-color: var(--v-primary-base) !important;
 }
 
 .v-tooltip__content {

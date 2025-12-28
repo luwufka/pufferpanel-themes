@@ -65,6 +65,11 @@
     max-height: 32em !important;
 }
 
+.v-item-group.v-btn-toggle {
+  display: flex !important;
+  gap: 6px;
+}
+
 .console {
   overflow: auto;
   scrollbar-width: thin;
@@ -89,4 +94,20 @@
 
 .console::-webkit-scrollbar-thumb:hover {
   background-color: rgba(255, 255, 255, 0.35);
+}
+
+.v-navigation-drawer {
+  padding: 8px !important;
+}
+
+.v-list-item {
+  margin-bottom: 2px;
+}
+.v-list-item::before {
+  border-radius: 12px;
+}
+
+.v-list {
+  padding: 8px !important;
+  border-radius: 12px !important;
 }

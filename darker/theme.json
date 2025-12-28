@@ -10,9 +10,9 @@
       "error": "#ff5252"
     },
     "dark": {
-      "primary": "#356883",
-      "anchor": "#07a7e3",
-      "accent": "#65a5f8",
+      "primary": "#2E3C68",
+      "anchor": "#2B52FF",
+      "accent": "#5F77FF",
       "info": "#2196f3",
       "success": "#4caf50",
       "warning": "#fb8c00",

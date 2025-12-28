@@ -136,3 +136,7 @@
 *::-moz-selection {
   background-color: var(--v-primary-base) !important;
 }
+
+.v-tooltip__content {
+  border-radius: 8px;
+}

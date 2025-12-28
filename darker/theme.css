@@ -36,6 +36,10 @@
   background-color: black !important;
 }
 
+.theme--dark.v-bottom-navigation {
+    background-color: #161616 !important;
+}
+
 .v-card__text.overlayContent {
   overflow: hidden;
 }
@@ -110,4 +114,13 @@
 .v-list {
   padding: 8px !important;
   border-radius: 12px !important;
+}
+
+.v-bottom-navigation {
+  padding: 8px !important;
+  height: auto !important;
+}
+
+.v-bottom-navigation .v-btn__content {
+  padding: 6px;
 }

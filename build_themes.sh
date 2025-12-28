@@ -165,7 +165,7 @@ else
         break
         ;;
       *)
-        say "Select 👉 [Y/n]: "
+        say "Select 👉 [Y/n]"
         ;;
     esac
   done

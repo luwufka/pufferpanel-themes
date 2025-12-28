@@ -113,11 +113,11 @@
 }
 
 .v-navigation-drawer {
-  padding: 8px !important;
+  padding: 2px !important;
 }
 
 .v-list-item {
-  margin-bottom: 2px;
+  margin-bottom: 3px;
 }
 .v-list-item::before {
   border-radius: 12px;

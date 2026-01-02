@@ -92,7 +92,13 @@
   scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
 }
 
-.console::-webkit-scrollbar {
+.v-menu__content {
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.3) #1e1e1e ;
+}
+
+.console::-webkit-scrollbar, .v-menu__content::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
@@ -101,19 +107,27 @@
   background: transparent;
 }
 
-.console::-webkit-scrollbar-thumb {
+.v-menu__content::-webkit-scrollbar-track {
+  background: #1e1e1e !important;
+}
+
+.console::-webkit-scrollbar-thumb, .v-menu__content::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.28);
   border-radius: 999px;
   border: 2px solid transparent; 
   background-clip: content-box;
 }
 
-.console::-webkit-scrollbar-thumb:hover {
+.console::-webkit-scrollbar-thumb:hover, .v-menu__content::-webkit-scrollbar-thumb:hover {
   background-color: rgba(255, 255, 255, 0.35);
 }
 
 .v-navigation-drawer {
   padding: 2px !important;
+}
+
+.v-navigation-drawer--mini-variant {
+  width: auto !important;
 }
 
 .v-list-item {

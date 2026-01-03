@@ -154,3 +154,11 @@
 .v-tooltip__content {
   border-radius: 8px;
 }
+
+.container--fluid {
+  max-width: 90% !important;
+}
+
+.row {
+  margin: 0 !important;
+}

@@ -19,13 +19,13 @@ jobs:
       
       - name: Build themes
         run: |
-          chmod +x ./build_themes.sh
-          ./build_themes.sh -y
+          chmod +x ./build_all.sh
+          ./build_all.sh -y
 
       - name: Release
         uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: output/*.tar
+          files: dist/*.tar
           draft: false
           prerelease: false

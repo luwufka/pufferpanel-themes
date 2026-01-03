@@ -13,7 +13,7 @@ ask()  { echo -n "[❓] $*"; }
 
 # -- Values --
 SOURCE_DIR="themes"
-OUT_DIR="output"
+OUT_DIR="dist"
 DEST="/var/www/pufferpanel/theme"
 
 

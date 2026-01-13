@@ -12,7 +12,7 @@ If you would like to build the themes from source, follow these directions:
 
 ## ✨ Additionally
 - If you like the themes, please put a star on the repository ⭐
-- If you have any suggestions, feel free to open Pull Requests 🌿
+- Feel free to open an Issue or Pull Request 🌿
 
 ## 🖼️ Screenshots
 <img width="1864" height="895" alt="image" src="https://github.com/user-attachments/assets/4d4b670b-52fc-4bbb-bdb1-83211ac2fe8a" />
